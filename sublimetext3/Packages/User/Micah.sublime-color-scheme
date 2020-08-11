@@ -1,0 +1,125 @@
+{
+	"name": "Micah",
+	"author": "Micah Barnes",
+	"variables":
+	{
+		"purple": "#C574DD",
+		"red": "#EB6EA4",
+		"blue": "#54AFEB",
+		"darkblue": "#4289B8",
+		"green1": "#5ADECD",
+		"green2": "#58F5B5",
+		"green3": "#46C290",
+		"darkgreen": "#2A7557",
+		"orange": "#F99475",
+		"orange2": "#FF8378",
+		"red": "#F57258",
+		"black": "#282A36",
+		"darkblack": "#262833",
+		"white": "#FDFDFD",
+		"grey": "#BDBDBD",
+		"darkgrey": "#8A8A8A",
+	},
+	"globals":
+	{
+		"background": "var(black)",
+		"foreground": "var(white)",
+		"caret": "var(green1)",
+		"block_caret": "var(green1)",
+		"line_highlight": "var(green1)",
+		"selection": "var(green1)",
+		"misspelling": "var(red)",
+		"fold_marker": "var(red)",
+		"accent": "var(orange)",
+		"line_diff_width": "2",
+		"line_diff_added": "var(green1)",
+		"line_diff_modified": "var(orange2)",
+		"line_diff_deleted": "var(red)",
+		"gutter": "var(darkblack)",
+		"gutter_foreground": "var(darkgrey)",
+		"selection": "var(orange2)",
+		"selection_foreground": "var(white)",
+		"highlights": "var(orange2)",
+		"find_highlights": "var(orange2)",
+		"find_highlight_foreground": "var(white)",
+	},
+	"rules":
+	[
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"foreground": "var(darkgreen)",
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"foreground": "var(green2)",
+		},
+		{
+			"name": "Native Types",
+			"scope": "constant.language",
+			"foreground": "var(blue)",
+		},
+		{
+			"name": "Escape Characters",
+			"scope": "constant.character.escape",
+			"foreground": "var(darkgrey)",
+		},
+		{
+			"name": "String Formatting",
+			"scope": "constant.other.placeholder",
+			"foreground": "var(darkgrey)",
+		},
+		{
+			"name": "Other Formatting",
+			"scope": "constant.other",
+			"foreground": "var(darkgrey)",
+		},
+		{
+			"name": "Entity",
+			"scope": "entity",
+			"foreground": "var(blue)",
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"foreground": "var(red)",
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"foreground": "var(purple)",
+			// "foreground": "var(darkblue)",
+		},
+		{
+			"name": "Markup",
+			"scope": "markup",
+			"foreground": "var(purple)",
+		},
+		{
+			"name": "Meta",
+			"scope": "meta.class",
+			"foreground": "var(darkblue)",
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"foreground": "var(darkblue)",
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"foreground": "var(green3)",
+		},
+		{
+			"name": "Support",
+			"scope": "support",
+			"foreground": "var(blue)",
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"foreground": "var(blue)",
+		}
+	]
+}
